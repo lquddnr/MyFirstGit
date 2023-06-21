@@ -2,7 +2,7 @@
 
 function login(username, password, flag){
     if (username !== "" && password !== null && flag) {
-        return '로그인성공';
+        return true;
     }
-    return '로그인 실패';
+    return false;
 }
