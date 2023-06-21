@@ -6,3 +6,9 @@ function login(username, password, flag){
     }
     return false;
 }
+
+
+
+function logout(){
+    return true;
+}
